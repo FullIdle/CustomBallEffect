@@ -1,0 +1,10 @@
+name: ${rootProject.name}
+main: ${group}
+version: ${version}
+description: 自定义球效果
+depend:
+  - 'FICore'
+commands:
+  customballeffect:
+    aliases: [cbe]
+    description: 自定义球效果

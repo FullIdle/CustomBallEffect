@@ -1,0 +1,21 @@
+#path头就是id!
+test:
+  type: PokeBall
+  name: '&6测试用球'
+  lore:
+    - '&6能触发的效果如下:'
+    - '  &7- {effect}'
+    - '&6更多的数据'
+  subeffect:
+    - 'MyEffect' ##由子效果的字符就是附属写的子效果名字,得由附属提供,MyEffect是本插件自己写的一个测试用的
+    - 'ThunderEffect.Hit' ##本插件提供的一个效果,在球命中后的那一刻落雷,去掉Hit就是全程落雷
+
+test2:
+  type: UltraBall
+  name: '&6测试用球2'
+  lore:
+    - '&6能触发的效果如下:'
+    - ' &7- {effect}'
+    - '&6更多的数据'
+  subeffect:
+    - 'ThunderEffect' ##本插件提供的一个效果,在球命中后的那一刻落雷,去掉Hit就是全程落雷
