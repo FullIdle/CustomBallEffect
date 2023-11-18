@@ -21,6 +21,9 @@ public class CMD implements CommandExecutor, TabCompleter {
             sender.sendMessage(AllData.helpMsg);
             return false;
         }
+        if (!sender.isOp()){
+            return false;
+        }
         if (AllData.subCmd.contains(args[0].toLowerCase())) {
             switch (args[0].toLowerCase()) {
                 case "reload": {
